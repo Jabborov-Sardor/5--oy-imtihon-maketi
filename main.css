@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.allHeader {
+  border: solid 2px gray;
+}
+.header_up {
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 350px;
+  gap: 300px;
+  border: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 100%);
+  background-color: rgba(69, 79, 91, 100%);
+}
+.header {
+  height: 60px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  padding: 0px 160px 0px 140px;
+}
+.glavniy {
+  align-items: center;
+  color: rgb(22, 28, 36, 100%);
+  display: flex;
+  gap: 30px;
+}
+.select {
+  padding-top: 30px;
+  align-items: center;
+}
+.katalog {
+  align-items: center;
+  border: none;
+  outline: none;
+  background: none;
+}
+.phone-n {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px 0px 360px;
+  gap: 10px;
+}
+.icon {
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.heart {
+  margin-right: 10px;
+}
+/* //////// Header qismi tugadi ////// */
+
+.contaner {
+  margin: 0 auto;
+  align-items: center;
+  width: 1245px;
+  height: 100vh;
+
+  /* height: 100vh; */
+}
+.katalog-div {
+  display: flex;
+  margin-top: 30px;
+}
+.katalog {
+  margin-bottom: 30px;
+}
+.kata {
+  color: rgba(0, 0, 0, 0.85);
+}
+.nak_div {
+  display: flex;
+  text-align: end;
+  align-items: end;
+  gap: 10px;
+}
+.lengh {
+  font-size: 24px;
+}
+/*  //// main ////// */
+.main {
+  /* display: flex; */
+}
+.main_nav {
+  margin-top: 25px;
+  display: flex;
+  gap: 515px;
+  align-items: center;
+  text-align: center;
+}
+.main_nav_left {
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+}
+.sbros {
+  width: 280px;
+  height: 30px;
+  /* border: solid 1px blue; */
+  align-items: center;
+  padding-top: 3px;
+  text-align: center;
+}
+.nakladnoy {
+  font-size: 28px;
+}
+.zamok {
+  width: 320px;
+  display: flex;
+  gap: 5px;
+}
+.zamok-title {
+  text-align: center;
+  align-items: center;
+  padding-top: 4px;
+}
+.zam-img {
+  width: 15px;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+#populyar {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.main_section {
+  margin-top: 20px;
+  display: flex;
+}
+.filtr {
+  width: 280px;
+  height: 467px;
+  margin-right: 20px;
+  padding-left: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.453);
+}
+.filt-h3 {
+  margin-top: 20px;
+}
+.sena {
+  margin-top: 50px;
+  display: flex;
+  gap: 200px;
+}
+.inp {
+  border: solid 1px rgba(0, 0, 0, 0.301);
+  width: 120px;
+  height: 35px;
+  padding-left: 5px;
+  margin: 20px 11px 0px 0px;
+  outline: none;
+}
+.inselect {
+  width: 280px;
+}
+.option {
+  margin-top: 10px;
+  width: 255px;
+  height: 40px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+.card {
+  width: 290px;
+  border: solid 1px rgba(0, 0, 0, 0.338);
+}
+.card_up {
+  padding: 15px 0px 0px 10px;
+  background-color: rgba(128, 128, 128, 0.041);
+  display: flex;
+  gap: 114px;
+  text-align: center;
+  align-items: center;
+}
+.card-up-t {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+.sale {
+  width: 35px;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+.card_titles {
+  margin: 5px;
+  padding-left: 10px;
+}
+.reyting-div {
+  display: flex;
+  gap: 10px;
+}
+.cart_title {
+  margin-top: 5px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+.realP {
+  color: rgba(0, 0, 0, 0.696);
+}
+.btn_buy {
+  margin-left: 115px;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+.pg_1 {
+  width: 20px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  background-color: blue;
+}
