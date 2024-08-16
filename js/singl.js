@@ -5,6 +5,7 @@ const singlReyt = document.querySelector(".reyt");
 const singTitle = document.querySelector(".title");
 const singlDisc = document.querySelector(".discountPrice");
 const singlRealP = document.querySelector(".realP");
+console.log(singlImg);
 
 const id = localStorage.getItem("id") ? +localStorage.getItem("id") : 1;
 const prodactCards = JSON.parse(localStorage.getItem("product"));

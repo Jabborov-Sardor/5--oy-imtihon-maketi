@@ -22,7 +22,7 @@ export function rendrProduct(list = allProducts, parent = elWrap) {
     const newTemp = Template.content.cloneNode(true);
 
     const elImgTop = findEl(".img_1", newTemp);
-    // elImgTop.dataset.id = product.id;
+    elImgTop.dataset.id = product.id;
 
     let elHasBasket = findEl(".img2", newTemp);
     elHasBasket.dataset.id = product.id;
@@ -36,7 +36,8 @@ export function rendrProduct(list = allProducts, parent = elWrap) {
     const elDiscountP = findEl(".discountP", newTemp);
     const elRealPrice = findEl(".realP", newTemp);
 
-    // elImgTop.src = product.img;
+    elImgTop.src = product.img;
+    console.log(elImgTop.dataset);
     elTitle.textContent = product.title;
     elReyting.textContent = product.reyting;
     elRealPrice.textContent = product.realP;
@@ -93,9 +94,10 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 elCatigor.addEventListener("change", () => {
-  const filterCatigory = allProducts.filter((item) =>
-    item.allCategories.includes(elCatigor.value)
-  );
+  const filterCatigory = allProducts.filter((item) => {
+    return item.allCategories.includes(elCatigor.value);
+  });
+  console.log(filterCatigory);
 
   rendrProduct(filterCatigory);
 });
