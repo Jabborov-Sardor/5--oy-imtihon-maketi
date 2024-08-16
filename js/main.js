@@ -1,6 +1,6 @@
 import { allProducts } from "./data.js";
 
-const allCategories = ["summer", "popular", "test"];
+const allCategories = ["summer", "nimadir", "title", "popular", "test"];
 
 const findEl = (element, parent = document) => {
   return parent.querySelector(element);
