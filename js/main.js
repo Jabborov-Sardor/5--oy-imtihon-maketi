@@ -1,6 +1,6 @@
 import { allProducts } from "./data.js";
 
-const allCategories = ["Популярности", "summer", "popular", "test"];
+const allCategories = ["summer", "popular", "test"];
 
 const findEl = (element, parent = document) => {
   return parent.querySelector(element);
@@ -22,7 +22,7 @@ export function rendrProduct(list = allProducts, parent = elWrap) {
     const newTemp = Template.content.cloneNode(true);
 
     const elImgTop = findEl(".img_1", newTemp);
-    elImgTop.dataset.id = product.id;
+    // elImgTop.dataset.id = product.id;
 
     let elHasBasket = findEl(".img2", newTemp);
     elHasBasket.dataset.id = product.id;
@@ -36,7 +36,7 @@ export function rendrProduct(list = allProducts, parent = elWrap) {
     const elDiscountP = findEl(".discountP", newTemp);
     const elRealPrice = findEl(".realP", newTemp);
 
-    elImgTop.src = product.img;
+    // elImgTop.src = product.img;
     elTitle.textContent = product.title;
     elReyting.textContent = product.reyting;
     elRealPrice.textContent = product.realP;
@@ -60,7 +60,7 @@ elWrap.addEventListener("click", (evt) => {
     });
   }
 
-  /////////////   sinl page  //////////////
+  ///////////   sinl page  //////////////
   if (evt.target.className.includes("img_1")) {
     const id = evt.target.dataset.id;
 

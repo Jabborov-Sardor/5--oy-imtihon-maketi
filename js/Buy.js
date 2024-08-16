@@ -6,3 +6,4 @@ const findEl = (element, parent = document) => {
 };
 
 rendrProduct(allProducts.filter((product) => product.hasBasket === true));
+// console.log(rendrProduct);
